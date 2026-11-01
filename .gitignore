@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Secrets
+.env
+
+# Data and local DB (download BankSim from Kaggle)
+/data/*
+!/data/.gitkeep
+
+# Raw datasets (reports CSVs are kept)
+/*.csv
+
+# MLflow local tracking
+mlruns/
+mlflow*.db
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
